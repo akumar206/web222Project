@@ -1,0 +1,164 @@
+/* Global styles */
+
+/* Set default font family and size */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Set max width for content container */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Set header styles */
+  header {
+    background-color: #2f3640;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    text-decoration: underline;
+  }
+  
+  header img {
+    max-height: 50px;
+  }
+  
+  /* Set section background colors */
+  section {
+    padding: 50px;
+  }
+  
+  section:nth-of-type(odd) {
+    background-color: #f5f5f5;
+  }
+  
+  section:nth-of-type(even) {
+    background-color: #fff;
+  }
+  
+  /* Set font styles */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    margin: 0 0 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-size: 28px;
+  }
+  
+  h3 {
+    font-size: 24px;
+  }
+  
+  p {
+    margin: 0 0 20px;
+  }
+  
+  /* Set image styles */
+  .center {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .center {
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  
+  /* Set footer styles */
+  footer {
+    background-color: #2f3640;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Media Queries */
+  
+  /* Set styles for screens smaller than 400px wide */
+  @media only screen and (max-width: 400px) {
+  
+    /* Set font sizes for smaller screens */
+    body {
+      font-size: 14px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 18px;
+    }
+  
+    /* Hide header image on smaller screens */
+    header img {
+      display: none;
+    }
+  
+    /* Adjust header padding and font size on smaller screens */
+    header {
+      padding: 10px;
+      font-size: 14px;
+    }
+  
+    /* Center header links on smaller screens */
+    header nav {
+      text-align: center;
+    }
+  
+    /* Adjust section padding on smaller screens */
+    section {
+      padding: 20px;
+    }
+  
+    /* Adjust footer padding on smaller screens */
+    footer {
+      padding: 10px;
+    }
+  
+  }
+  
+  /* Set styles for screens larger than 400px wide */
+  @media only screen and (min-width: 401px) {
+  
+    /* Float header links to right on larger screens */
+    header nav {
+      float: right;
+    }
+  
+  }
+  
